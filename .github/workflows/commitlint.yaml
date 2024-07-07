@@ -13,5 +13,5 @@ jobs:
         name: checkout
       - uses: wagoid/commitlint-github-action@v5
         with:
-          configFile: ./.commitlintrc.mjs
+          configFile: ./.github/workflows/.commitlintrc.mjs
         name: commitlint
