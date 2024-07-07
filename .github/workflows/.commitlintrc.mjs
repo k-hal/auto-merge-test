@@ -1,8 +1,8 @@
-module.exports = {
+export default {
     extends: [
-        '@commitlint/config-conventional'
+      '@commitlint/config-conventional'
     ],
     rules: {
-        'body-max-line-length': [2, 'always', 120]
+      'body-max-line-length': [2, 'always', 120]
     }
-};
+}
